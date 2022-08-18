@@ -1,0 +1,177 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+}
+
+
+header nav ul{
+    list-style: none;
+}
+
+header nav li{
+    font-size: 40px;
+}
+
+header div{
+    text-align: center
+}
+
+form{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.box{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 8px
+
+}
+
+
+
+
+h1{
+    background-color: aliceblue;
+}
+
+
+.caja{
+    background-color: crimson;
+    width: 200px;
+    height: 150px;
+
+    margin: 10px;
+    padding: 80px;
+    box-sizing: border-box;
+
+    border: 3px solid blue; 
+}
+
+p{
+    background-color: aliceblue;
+}
+
+
+
+.loremGeneral{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    text-align: center;
+}
+/*
+.loremAyuda1{
+    background-color: brown;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+*/
+.art{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img1{
+    height: 200px;
+    width: 200px;
+}
+
+.imgUbi{
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+@media (max-width: 1280px){
+.principal{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+.loremGeneral{
+    display: grid;
+    grid-template-columns:  100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    text-align: center;
+}
+body{
+    display: grid;
+    grid-template-columns: 100%;
+}
+.productoGeneral{
+    display: grid;
+    grid-template-columns: 50%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        
+    }
+
+.tituloUbi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.ubi{  
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 100px 100px 100px;
+    row-gap: 100px;
+
+}
+
+.ubi2{
+    background-color: blueviolet;
+    padding: 30px;
+    color: aliceblue;
+    text-align: center;
+
+}
+.imgUbi{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+/*
+.ayudaTitulo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.loremAyuda1{
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 100px 100px 100px;
+    row-gap: 100px;
+}*/
+}
