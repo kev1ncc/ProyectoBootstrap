@@ -1,15 +1,27 @@
 
-
-*{
-    margin: 0;
-    padding: 0;
+/* configuracion general */
+html{
+    height: 100%;
 }
 
 body{
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(11, 182, 182);
+    min-height: 100%;
 }
 
+p{
+    background-color: aliceblue;
+}
 
+footer{
+    background-color: black;
+    color: white;
+    margin-top: auto;
+}
+
+/*
 header nav ul{
     list-style: none;
 }
@@ -26,6 +38,27 @@ form{
     margin-top: 20px;
     margin-bottom: 50px;
 }
+*/
+
+/* pagina principal */
+
+.menu:hover{
+    transform: scale(0);
+}
+
+.principal{
+    text-align: center;
+    list-style: none;
+}
+
+.loremGeneral{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    text-align: center;
+}
+
+/* pagina producto */
 
 .box{
     display: flex;
@@ -33,13 +66,6 @@ form{
     justify-content: center;
     margin: 8px
 
-}
-
-
-
-
-h1{
-    background-color: aliceblue;
 }
 
 
@@ -55,18 +81,7 @@ h1{
     border: 3px solid blue; 
 }
 
-p{
-    background-color: aliceblue;
-}
 
-
-
-.loremGeneral{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    text-align: center;
-}
 /*
 .loremAyuda1{
     background-color: brown;
@@ -101,9 +116,6 @@ p{
 .principal{
     display: flex;
     flex-direction: column;
-    margin: 20px;
-    padding: 20px;
-    
 }
 
 .loremGeneral{
